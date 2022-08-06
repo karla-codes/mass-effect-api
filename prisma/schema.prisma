@@ -13,24 +13,21 @@ datasource db {
 model Entry {
   id Int @id  @default(autoincrement())
   title String 
-  content String
-  category Category @relation(fields: [categoryName], references: [name])
-  categoryName String
-  subject Subject @relation(fields: [subjectName], references: [name])
-  subjectName String
+  content String[]
+  category Category @relation(fields: [categoryId], references: [id])
+  categoryId Int
+  subject Subject @relation(fields: [subjectId], references: [id])
+  subjectId Int
 }
 
 model Category {
   id Int @id  @default(autoincrement())
-  name String @unique
+  name String
   entries Entry[]
-  subjects Subject[]  
 }
 
 model Subject {
   id Int @id  @default(autoincrement())
-  name String @unique
+  name String 
   entries Entry[]
-  category Category @relation(fields: [categoryName], references: [name])
-  categoryName String
 }
