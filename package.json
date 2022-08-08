@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "A REST API for Mass Effect Codex entries",
   "scripts": {
-    "dev": "ts-node src/index.ts"
+    "dev": "ts-node index.ts"
   },
   "author": "Karla Walker",
   "license": "ISC",
