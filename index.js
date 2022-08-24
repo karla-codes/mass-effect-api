@@ -1,7 +1,7 @@
+require("dotenv").config()
 const express = require("express")
 const mongoose = require("mongoose")
 const routes = require("./routes")
-require("dotenv").config()
 
 const mongoDB = process.env.MONGODB_URI
 
@@ -26,7 +26,7 @@ app.use("/api", routes)
 // greeting set at root route
 app.get("/", (req, res) => {
   res.json({
-    message: "Welcome to the (unofficial) Mass Effect Codex REST API!",
+    message: "Welcome to the Mass Effect Codex API!",
   })
 })
 
