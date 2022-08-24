@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "A REST API for Mass Effect Codex entries",
   "scripts": {
-    "start": "nodemon index.js"
+    "start": "node index.js"
   },
   "author": "Karla Walker",
   "license": "ISC",
