@@ -19,7 +19,7 @@ const app = express()
 
 // middleware
 app.use(express.json())
-app.use(cors)
+app.use(cors())
 
 // set up '/api' route
 // (makes it so that you must include '/api' before any route)
