@@ -2,6 +2,7 @@ require("dotenv").config()
 const express = require("express")
 const mongoose = require("mongoose")
 const routes = require("./routes")
+const cors = require("cors")
 
 const mongoDB = process.env.MONGODB_URI
 
@@ -18,6 +19,7 @@ const app = express()
 
 // middleware
 app.use(express.json())
+app.use(cors)
 
 // set up '/api' route
 // (makes it so that you must include '/api' before any route)
