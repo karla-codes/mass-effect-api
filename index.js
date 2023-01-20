@@ -16,15 +16,10 @@ db.on("error", err => {
 })
 
 const app = express()
-const corsOptions = {
-  origin: "*",
-  credentials: true,
-  optionSuccessStatus: 200,
-}
 
 // middleware
 app.use(express.json())
-app.use(cors(corsOptions))
+app.use(cors())
 
 // set up '/api' route
 // (makes it so that you must include '/api' before any route)
