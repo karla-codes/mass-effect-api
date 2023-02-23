@@ -41,6 +41,73 @@ GET - Get all entries from a specific subject in the Secondary category
 
 `/api/entries/secondary/:subjectId`
 
+<table>
+      <tr>
+        <th>Subject</th>
+        <th>Id</th>
+      </tr>
+      <tr>
+        <td>Aliens: Council Races</td>
+        <td>1</td>
+      </tr>
+      <tr>
+        <td>Aliens: Extinct Races</td>
+        <td>2</td>
+      </tr>
+      <tr>
+        <td>Aliens: Non-Council Races</td>
+        <td>3</td>
+      </tr>
+      <tr>
+        <td>Aliens: Non-Sapient Creatures</td>
+        <td>4</td>
+      </tr>
+      <tr>
+        <td>Citadel and Galactic Government</td>
+        <td>5</td>
+      </tr>
+      <tr>
+        <td>Humanity and the Systems Alliance</td>
+        <td>6</td>
+      </tr>
+      <tr>
+        <td>Known Associates</td>
+        <td>7</td>
+      </tr>
+      <tr>
+        <td>Organizations</td>
+        <td>8</td>
+      </tr>
+      <tr>
+        <td>Personal History Summary</td>
+        <td>9</td>
+      </tr>
+      <tr>
+        <td>Planets and Locations</td>
+        <td>10</td>
+      </tr>
+      <tr>
+        <td>Publications</td>
+        <td>11</td>
+      </tr>
+      <tr>
+        <td>Ships and Vehicles</td>
+        <td>12</td>
+      </tr>
+      <tr>
+        <td>Technology</td>
+        <td>13</td>
+      </tr>
+      <tr>
+        <td>The Reapers</td>
+        <td>14</td>
+      </tr>
+      <tr>
+        <td>Weapons, Armor and Equipment</td>
+        <td>15</td>
+      </tr>
+    </table>
+
 
 ## Credits
 
