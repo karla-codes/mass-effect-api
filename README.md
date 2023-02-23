@@ -13,6 +13,35 @@ While planning out my [Mass Effect Codex](https://github.com/karla-codes/mass-ef
 - Mongoose
 - Fly
 
+## REST API
+
+Below are all the available requests:
+
+GET - Get all entries
+
+`/api/entries/all`
+
+GET - Get all entries in Primary category
+
+`/api/entries/primary`
+
+GET - Get all entries in Secondary category
+
+`/api/entries/secondary`
+
+GET - Get all entries from a specific Subject
+
+`/api/entries/:subjectId`
+
+GET - Get all entries from a specific subject in the Primary category
+
+`/api/entries/primary/:subjectId`
+
+GET - Get all entries from a specific subject in the Secondary category
+
+`/api/entries/secondary/:subjectId`
+
+
 ## Credits
 
 Below are links to all of the resources used:
